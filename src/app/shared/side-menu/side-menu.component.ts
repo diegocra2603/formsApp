@@ -48,4 +48,15 @@ export class SideMenuComponent  {
     },
   ];
 
+  authMenu: SideMenuItem[] = [
+    {
+      name:'Registro',
+      ruta:'./auth/registro'
+    },
+    {
+      name:'Login',
+      ruta:'./auth/login'
+    },
+  ];
+
 }
